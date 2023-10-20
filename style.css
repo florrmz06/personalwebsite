@@ -1,11 +1,33 @@
 /* header two style */
 .headertwo {
 color: rgb(238, 208, 208);
+font-size: 45px;
+font-style: italic;
 }
 
+/* paragraph's style */
 .pg {
     color: rgb(70, 12, 12);
+    width: 500px;
+    font-size: 35px;
+    text-align: left;
+    font-style: oblique;
+    border: solid white;
+    margin-left: 300px;
 }
 
+/* page's main header style */
+.mainheader {
+    color: rgb(240, 222, 228); 
+    font-size: 70px;
+    font-style: oblique;
+}
 
+/*body style*/
+.body {
+    background-color: rgb(197, 144, 154);
+            text-align: center;
+            width: 1700px;
+            
+}
 
