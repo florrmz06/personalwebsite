@@ -24,7 +24,7 @@ font-style: italic;
     font-style: oblique;
 }
 
-/*body style*/
+/* entire body style */
 .body {
     background-color: rgb(197, 144, 154);
             text-align: center;
@@ -34,6 +34,7 @@ font-style: italic;
             height: 100vh;
 }
 
+/* section to be able to display paragraph and image next to each other */
 .section {
     display: flex;
     top: 50%;
@@ -41,36 +42,40 @@ font-style: italic;
     margin-left: 10%;
 }
 
+/* class so all images where the same size */
 .image {
     margin-left: 100px;
     height: 350px;
     width: 500px;
 }
 
+/* navigation bar */
 .nav {
     background: rgb(238, 208, 208);
     width: 750px;;
 }
 
+/* takes away any spacing around the nav bar*/
 nav ul {
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
+/* seperates the text in nav bar and puts them in a line */
 nav li {
     display: inline-block;
     text-align: center;
     margin-left: 60px;
 }
 
+/* nav bar's text styling */
 nav a {
     text-decoration: none;
     color:  rgb(197, 144, 154);
     font-style: oblique;
     font-size: 30px;
 }
-
+/* text changes color in nav bar when the cursor touches it */
 nav a:hover {
      color:  rgb(70, 12, 12);
 }
