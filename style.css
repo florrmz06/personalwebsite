@@ -44,7 +44,7 @@ font-style: italic;
 
 /* class so all images where the same size */
 .image {
-    margin-left: 100px;
+    margin-left: 100px !important;
     height: 350px;
     width: 500px;
 }
